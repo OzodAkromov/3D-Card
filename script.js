@@ -186,6 +186,7 @@ tab_btns.addEventListener('click', (index) => {
     content.classList.add('active')
     content_none.classList.remove('active')
     active_text.classList.add('active')
+    circle.style.background = 'linear-gradient(to right bottom, #fa3535d2, #255bf0d3)'
 
 })
 
