@@ -60,7 +60,7 @@ card.addEventListener('mousemove', (event) => {
     let y = windowHeight / 2 - mouseY
 
     card.style.transform = `rotateX(${y / 50}deg) rotateY(${x / 50}deg)`
-    card.style.transition = '0s'
+    card.style.transition = '0.1s'
 
     img.style.transform = `translateZ(70px) rotate(45deg)`
     img_air.style.transform = `translateZ(70px) rotate(45deg)`
@@ -77,7 +77,7 @@ card.addEventListener('mouseleave', () => {
     img.style.transform = `translateZ(0px) rotate(0deg)`
     img_air.style.transform = `translateZ(0px) rotate(0deg)`
 
-    card.style.transition = '0.5s'
+    card.style.transition = '0.1s'
     circle.style.transform = 'scale(1)'
     title.style.transform = 'translateZ(0px)'
     title_none.style.transform = 'translateZ(0px)'
@@ -100,7 +100,7 @@ card_2.addEventListener('mousemove', (event) => {
     let y = windowHeight / 2 - mouseY
     
     card_2.style.transform = `rotateX(${y / 50}deg) rotateY(${x / 50}deg)`
-    card_2.style.transition = '0s'
+    card_2.style.transition = '0.1s'
     
     img_2.style.transform = `translateZ(70px) rotate(45deg)`
     content_none_2.style.transform = `translateZ(70px) rotate(45deg)`
@@ -117,7 +117,7 @@ card_2.addEventListener('mouseleave', () => {
     img_2.style.transform = `translateZ(0px) rotate(0deg)`
     content_none_2.style.transform = `translateZ(0px) rotate(0deg)`
 
-    card_2.style.transition = '0.5s'
+    card_2.style.transition = '0.1s'
     circle_2.style.transform = 'scale(1)'
     circle_2.style.transition = '0.5s'
     title_2.style.transform = 'translateZ(0px)'
@@ -140,7 +140,7 @@ card_3.addEventListener('mousemove', (event) => {
     let y = windowHeight / 2 - mouseY
     
     card_3.style.transform = `rotateX(${y / 50}deg) rotateY(${x / 50}deg)`
-    card_3.style.transition = '0s'
+    card_3.style.transition = '0.1s'
     
     img_3.style.transform = `translateZ(70px) rotate(45deg)`
     content_none_3.style.transform = `translateZ(70px) rotate(45deg)`
@@ -157,7 +157,7 @@ card_3.addEventListener('mouseleave', () => {
     img_3.style.transform = `translateZ(0px) rotate(0deg)`
     content_none_3.style.transform = `translateZ(0px) rotate(0deg)`
 
-    card_3.style.transition = '0.5s'
+    card_3.style.transition = '0.1s'
     circle_3.style.transform = 'scale(1)'
     circle_3.style.transition = '0.5s'
     title_3.style.transform = 'translateZ(0px)'
